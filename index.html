@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header__nav nav">
+                <a href="#" class="header__nav-logo nav-logo">
+                    <img src="img/logo.png" alt="logo">
+                    Game Out
+                </a>
+
+                <ul class="header__nav-list">
+                    <li class="header__nav-item nav-item"><a href="#top" class="header__nav-link nav-link">Home</a></li>
+                    <li class="header__nav-item nav-item"><a href="#about" class="header__nav-link nav-link">About</a></li>
+                    <li class="header__nav-item nav-item"><a href="#service" class="header__nav-link nav-link">Service</a></li>
+                    <li class="header__nav-item nav-item"><a href="#info" class="header__nav-link nav-link">Info</a></li>
+                    <li class="header__nav-item nav-item"><a href="#contacts" class="header__nav-link nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__content">
+                <h1 class="header__content-title">Games are our most intresting task!</h1>
+
+                <p>We want to give you cool experience and plesure. So go to our family!</p>
+
+                <button href="#contacts" class="btn header__content-btn">Get help</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about">
+            <h2 class="section__title">Why us?</h2>
+
+            <div class="about__cards">
+                <div class="about__cards-item">
+                    <img src="/img/about/game.png" alt="Gamepad">
+                    <h3 class="about__cards-title">Large collection</h3>
+                    <p>Every visitor will find a game to their liking</p>
+                </div>
+                <div class="about__cards-item">
+                    <img src="/img/about/desktop.png" alt="Computer">
+                    <h3 class="about__cards-title">Modern computers</h3>
+                    <p>Our computers will run any modern games</p>
+                </div>
+                <div class="about__cards-item">
+                    <img src="/img/about/team.png" alt="Team">
+                    <h3 class="about__cards-title">Helpful staff</h3>
+                    <p>Our experts will help you with any problem</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="section service">
+            <h2 class="section__title">Our service</h2>
+
+            <div class="service__cards">
+                <div class="service__cards-item">
+                    <h3 class="service__cards-title">Standart 1+ Free WiFi</h3>
+                    <img src="img/service/standart.png" alt="">
+                    <p>The classic of our club is a comfortable chair and everything you need to play</p>
+                    <strong>2.5$ for hour</strong>
+
+                    <button class="btn service__btn accent">Buy a place</button>
+                </div>
+
+                <div class="service__cards-item">
+                    <h3 class="service__cards-title">Standart 2+ Free WiFi</h3>
+                    <img src="img/service/VIP.png" alt="">
+                    <p>The classic of our club is a comfortable chair and everything you need to play</p>
+                    <strong>4$ for hour</strong>
+
+                    <button class="btn service__btn primary">Buy a place</button>
+                </div>
+
+                 <div class="service__cards-item carousel-cell">
+                    <h3 class="service__cards-title">Standart 3+ Free WiFi</h3>
+                    <img src="img/service/VIP.png" alt="">
+                    <p>The classic of our club is a comfortable chair and everything you need to play</p>
+                    <strong>4$ for hour</strong>
+
+                    <button class="btn service__btn primary">Buy a place</button>
+                </div>
+
+                <!-- <div class="service__cards-item carousel-cell">
+                    <h3 class="service__cards-title">Standart + Free WiFi</h3>
+                    <img src="img/service/VIP.png" alt="">
+                    <p>The classic of our club is a comfortable chair and everything you need to play</p>
+                    <strong>4$ for hour</strong>
+
+                    <button class="btn service__btn primary">Buy a place</button>
+                </div>
+
+                <div class="service__cards-item carousel-cell">
+                    <h3 class="service__cards-title">Standart + Free WiFi</h3>
+                    <img src="img/service/VIP.png" alt="">
+                    <p>The classic of our club is a comfortable chair and everything you need to play</p>
+                    <strong>4$ for hour</strong>
+
+                    <button class="btn service__btn primary">Buy a place</button>
+                </div> -->
+            </div>
+
+            <div class="service__nav">
+                <button class="service__nav-prev btn" onclick="previousSlide()">&#8249</button>
+                <button class="service__nav-next btn" onclick="nextSlide()">&#8250</button>
+            </div>
+        </section>
+
+        <section id="info" class="section info">
+            <h2 class="section__title">About us</h2>
+
+            <div class="row">
+                <ul class="tabs__list">
+                    <li class="tabs__list-item">
+                        <button class="tabs__list-title">Technical devices</button>
+
+                        <div class="tabs__list-block">
+                            <ul class="info__list">
+                                <li>Intel Core I5 10700k 3.5 Mhz</li>
+                                <li>Nvidia Geforce RTX 3080Ti</li>
+                                <li>Kingston DDR4 16GB 2400 MHz</li>
+                                <li>Samsung SSD 1TB 4000 Mb/s</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="tabs__list-item">
+                        <button class="tabs__list-title">Price of our service</button>
+
+                        <div class="tabs__list-block">
+                            <ul class="info__list">
+                                <li>Intel Core I5 10700k 3.5 Mhz</li>
+                                <li>Nvidia Geforce RTX 3080Ti</li>
+                                <li>Kingston DDR4 16GB 2400 MHz</li>
+                                <li>Samsung SSD 1TB 4000 Mb/s</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="tabs__list-item">
+                        <button class="tabs__list-title">Your questions</button>
+
+                        <div class="tabs__list-block">
+                            <ul class="info__list">
+                                <li>Intel Core I5 10700k 3.5 Mhz</li>
+                                <li>Nvidia Geforce RTX 3080Ti</li>
+                                <li>Kingston DDR4 16GB 2400 MHz</li>
+                                <li>Samsung SSD 1TB 4000 Mb/s</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="tabs__list-item">
+                        <button class="tabs__list-title">Contacts</button>
+
+                        <div class="tabs__list-block">
+                            <ul class="info__list">
+                                <li>Intel Core I5 10700k 3.5 Mhz</li>
+                                <li>Nvidia Geforce RTX 3080Ti</li>
+                                <li>Kingston DDR4 16GB 2400 MHz</li>
+                                <li>Samsung SSD 1TB 4000 Mb/s</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section id="contacts" class="section contacts">
+            <h2 class="section__title">Contacts</h2>
+
+            <div class="row">
+                <form class="form" action="">
+                    <h3>Have a questions? Ask it to us</h3>
+
+                    <input name="name" id="name" type="text" placeholder="Ваше имя">
+                    <input name="email" id="email" type="text" placeholder="Ваш email">
+
+                    <textarea placeholder="Ваше сообщение" name="message" id="message" cols="50" rows="10"></textarea>
+
+                    <div class="form__group">
+                        <button class="form__btn btn">Отправить</button>
+                        <div class="form__checkbox">
+                            <input type="checkbox" name="ok" id="ok">
+                            <label for="ok">Я согласен с политикой конфеденциальности</label>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="contacts__info">
+                    <p>Please, leave us a message. We callback you in the next 24 hours</p>
+                    <p>Phone <b>+2 (109) 893 93 33</b></p>
+                    <p>Email: <b>gameout@gmail.com</b></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr class="separator">
+
+    <footer class="footer">
+        <div class="wrapper">
+            <nav class="footer__nav">
+                <a href="#" class="footer__nav-logo">
+                    <img src="img/logo.png" alt="logo">
+                    Game Out
+                </a>
+    
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item"><a href="#" class="footer__nav-link nav-link">Home</a></li>
+                    <li class="footer__nav-item nav-item"><a href="#" class="footer__nav-link nav-link">About</a></li>
+                    <li class="footer__nav-item nav-item"><a href="#" class="footer__nav-link nav-link">Service</a></li>
+                    <li class="footer__nav-item nav-item"><a href="#" class="footer__nav-link nav-link">Info</a></li>
+                    <li class="footer__nav-item nav-item"><a href="#" class="footer__nav-link nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+    
+            <ul class="socials">
+                <li class="socials__item"><a href="#" class="socials__link"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                <li class="socials__item"><a href="#" class="socials__link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li class="socials__item"><a href="#" class="socials__link"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li class="socials__item"><a href="#" class="socials__link"><i class="fa fa-facebook" aria-hidden="true"></i>
+                </a></li>
+            </ul>
+    
+            <div class="row">
+                <p>Address: New York, Depan st.77</p>
+                <span>© 2021 GameOut — All right reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
